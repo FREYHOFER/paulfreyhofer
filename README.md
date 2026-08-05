@@ -12,6 +12,10 @@ Personal portfolio and résumé website for Paul Freyhofer.
 - Downloadable CV PDFs in four languages
 - Static deployment on Vercel
 
+## Deployment
+
+The `main` branch is connected to Vercel and is the production source.
+
 ## Local preview
 
 ```bash
