@@ -64,7 +64,7 @@ COPY = {
         "education_items": [
             ("seit 2026", "42 Berlin", "Software Engineering | projektbasiertes Peer-Learning"),
             ("2025", "42 Rio", "Software Engineering | C, Algorithmen und Unix"),
-            ("2024-2025", "Aix-Marseille Université", "MIASHS"),
+            ("2024-2025", "Aix-Marseille Université", "Mathematik und Informatik, angewandt auf Human- und Sozialwissenschaften (MIASHS) | AFEV KAPS: solidarische Wohngemeinschaft in Marseille"),
             ("2023", "Gymnasium Dörpsweg", "Abitur | 2,2"),
         ],
         "skills": "KOMPETENZEN",
@@ -117,7 +117,7 @@ COPY = {
         "education_items": [
             ("since 2026", "42 Berlin", "Software Engineering | project-based peer learning"),
             ("2025", "42 Rio", "Software Engineering | C, algorithms and Unix"),
-            ("2024-2025", "Aix-Marseille University", "MIASHS"),
+            ("2024-2025", "Aix-Marseille University", "Mathematics and Computer Science applied to Humanities and Social Sciences (MIASHS) | AFEV KAPS: solidarity-based shared flat in Marseille"),
             ("2023", "Gymnasium Dörpsweg", "German Abitur | 2.2"),
         ],
         "skills": "SKILLS",
@@ -170,7 +170,7 @@ COPY = {
         "education_items": [
             ("depuis 2026", "42 Berlin", "Génie logiciel | apprentissage par projets entre pairs"),
             ("2025", "42 Rio", "Génie logiciel | C, algorithmes et Unix"),
-            ("2024-2025", "Aix-Marseille Université", "MIASHS"),
+            ("2024-2025", "Aix-Marseille Université", "Mathématiques et informatique appliquées aux sciences humaines et sociales (MIASHS) | AFEV KAPS : colocation à projet solidaire à Marseille"),
             ("2023", "Gymnasium Dörpsweg", "Abitur allemand | 2,2"),
         ],
         "skills": "COMPÉTENCES",
@@ -223,7 +223,7 @@ COPY = {
         "education_items": [
             ("desde 2026", "42 Berlin", "Ingeniería de software | aprendizaje por proyectos entre pares"),
             ("2025", "42 Rio", "Ingeniería de software | C, algoritmos y Unix"),
-            ("2024-2025", "Aix-Marseille Université", "MIASHS"),
+            ("2024-2025", "Aix-Marseille Université", "Matemáticas e informática aplicadas a las ciencias humanas y sociales (MIASHS) | AFEV KAPS: vivienda compartida solidaria en Marsella"),
             ("2023", "Gymnasium Dörpsweg", "Abitur alemán | 2,2"),
         ],
         "skills": "COMPETENCIAS",

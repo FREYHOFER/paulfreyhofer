@@ -179,6 +179,7 @@ html[data-theme="dark"] .blink-experience .experience-tags span { border-color: 
 .education-items span { color: var(--accent); font-size: .66rem; }
 .education-items h3 { margin: 0 0 .1rem; font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
 .education-items p { margin: 0; color: var(--muted); font-size: .8rem; }
+.education-items .education-note { margin-top: .35rem; color: var(--accent); }
 .skill-lines p { display: flex; justify-content: space-between; gap: 1rem; padding: .82rem 0; margin: 0; border-top: 1px solid var(--line); }
 .skill-lines span { color: var(--muted); font-size: .72rem; }
 .skill-lines strong { max-width: 72%; text-align: right; font-size: .8rem; }
