@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="de" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Paul Freyhofer - Software Engineering, Automatisierung und digitale Projekte.">
+  <meta name="theme-color" content="#0a0b0d">
+  <meta property="og:title" content="Paul Freyhofer - Portfolio & CV">
+  <meta property="og:description" content="Software Engineering bei 42 Berlin, Automatisierung und digitale Verantwortung im Familienunternehmen.">
+  <meta property="og:type" content="website">
+  <title>Paul Freyhofer - Portfolio & CV</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Paul Freyhofer",
+    "email":"mailto:paul@freyhofer.de",
+    "url":"https://paul-freyhofer.vercel.app",
+    "sameAs":["https://github.com/FREYHOFER","https://www.linkedin.com/in/paul-freyhofer-a4055519a"],
+    "knowsLanguage":["German","Spanish","English","French"],
+    "homeLocation":{"@type":"Place","name":"Berlin, Germany"}
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Zum Inhalt</a>
+  <div class="pointer-light" id="pointerLight" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="wordmark magnetic" href="#top" aria-label="Paul Freyhofer">
+      <span class="mark">PF</span><span>Paul Freyhofer</span>
+    </a>
+    <nav aria-label="Navigation">
+      <a href="#projects" data-i18n="navProjects">Projekte</a>
+      <a href="#experience" data-i18n="navExperience">Erfahrung</a>
+      <a href="#education" data-i18n="navEducation">Ausbildung</a>
+    </nav>
+    <div class="header-actions">
+      <label class="sr-only" for="languageSelect" data-i18n="languageLabel">Sprache</label>
+      <select id="languageSelect" aria-label="Sprache wählen">
+        <option value="de">DE</option>
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+        <option value="es">ES</option>
+      </select>
+      <button class="icon-button magnetic" id="themeToggle" type="button" aria-label="Farbschema wechseln">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.6-.06-1.2-.18-1.76A7 7 0 0 1 12 3Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="overline reveal" data-i18n="heroOverline">Software Engineering · Automation · Digital Business</p>
+        <h1 class="hero-title" aria-label="Paul Freyhofer">
+          <span class="title-row"><span>Paul</span></span>
+          <span class="title-row outline"><span>Freyhofer</span></span>
+        </h1>
+        <p class="hero-text reveal" data-i18n="heroText">Software-Engineering-Student bei 42 Berlin. Ich entwickle Automatisierungen und digitale Lösungen für reale Abläufe - unter anderem im Familienunternehmen Schnelsener Büchereck.</p>
+        <div class="hero-buttons reveal">
+          <a class="button button-primary magnetic" href="#projects"><span data-i18n="viewProjects">Projekte</span><span>↘</span></a>
+          <a class="button button-secondary magnetic cv-download" href="paul-freyhofer-cv-de.pdf" download><span data-i18n="downloadCv">CV herunterladen</span><span>↓</span></a>
+        </div>
+        <div class="hero-meta reveal">
+          <span>Berlin</span><span>Hamburg</span><span data-i18n="available">Offen für Praktika und Projekte</span>
+        </div>
+      </div>
+
+      <div class="hero-board reveal" aria-label="Projektübersicht">
+        <div class="board-head"><span data-i18n="currentWork">Aktuelle Arbeit</span><span class="live-dot">LIVE</span></div>
+        <a class="mini-project mini-project-wide" href="https://github.com/FREYHOFER/KassenberichtOCR" target="_blank" rel="noreferrer">
+          <div class="scan-visual" aria-hidden="true">
+            <div class="paper"><i></i><i></i><i></i><i></i><b>128,40</b></div>
+            <div class="scanner"></div>
+            <span>OCR → DATEV</span>
+          </div>
+          <div><small>Python · OCR · Playwright</small><strong>DATEV Kassenbericht</strong></div>
+          <span>↗</span>
+        </a>
+        <div class="board-grid">
+          <a class="mini-project" href="https://github.com/FREYHOFER/tiktokshop" target="_blank" rel="noreferrer">
+            <div class="flow-visual" aria-hidden="true"><span>LIBRI</span><i>→</i><span>TIKTOK</span><b>EAN</b></div>
+            <div><small>Python · APIs</small><strong>TikTok × Libri</strong></div><span>↗</span>
+          </a>
+          <a class="mini-project" href="https://github.com/FREYHOFER/libft" target="_blank" rel="noreferrer">
+            <div class="terminal-visual" aria-hidden="true"><code>$ make bonus</code><code>libft.a ✓</code><span>C</span></div>
+            <div><small>42 Curriculum</small><strong>libft</strong></div><span>↗</span>
+          </a>
+        </div>
+        <div class="board-foot"><span>GitHub</span><strong>@FREYHOFER</strong><a href="https://github.com/FREYHOFER" target="_blank" rel="noreferrer">Profil ↗</a></div>
+      </div>
+    </section>
+
+    <section class="compact-intro section-shell" id="profile">
+      <div class="section-label reveal"><span>01</span><p data-i18n="profileLabel">Profil</p></div>
+      <div class="intro-grid">
+        <h2 class="reveal" data-i18n="profileHeading">Technik, Handel und internationale Erfahrung.</h2>
+        <div class="intro-text reveal">
+          <p data-i18n="profileText1">Bei 42 Berlin lerne ich Software Engineering projektbasiert mit C, Git und Unix. Zuvor studierte ich bei 42 Rio und an der Aix-Marseille Université.</p>
+          <p data-i18n="profileText2">Im Schnelsener Büchereck, der Buchhandlung meines Vaters, habe ich 2026 deutlich mehr Verantwortung übernommen - besonders für E-Commerce, Automatisierung und digitale Abläufe.</p>
+        </div>
+        <div class="facts reveal">
+          <div><strong>4</strong><span data-i18n="factLanguages">Sprachen</span></div>
+          <div><strong>3</strong><span data-i18n="factProjects">öffentliche Projekte</span></div>
+          <div><strong>DE · BR · FR · CL</strong><span data-i18n="factInternational">Studium und Arbeit international</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projects">
+      <div class="section-label reveal"><span>02</span><p data-i18n="projectsLabel">GitHub-Projekte</p></div>
+      <div class="section-title-row reveal"><h2 data-i18n="projectsHeading">Ausgewählte technische Arbeit</h2><a href="https://github.com/FREYHOFER" target="_blank" rel="noreferrer" data-i18n="allGithub">Alle auf GitHub ↗</a></div>
+
+      <div class="project-list">
+        <a class="project project-ocr reveal" href="https://github.com/FREYHOFER/KassenberichtOCR" target="_blank" rel="noreferrer">
+          <div class="project-visual visual-ocr" aria-hidden="true">
+            <div class="receipt"><span>01.08.2026</span><span>Kasse</span><strong>128,40 €</strong><i></i><i></i><i></i></div>
+            <div class="detect-box box-one">DATUM</div><div class="detect-box box-two">BETRAG</div><div class="beam"></div>
+          </div>
+          <div class="project-copy">
+            <div class="project-number">01</div>
+            <p class="project-tech">Python · OCR · Playwright</p>
+            <h3 data-i18n="ocrTitle">DATEV Kassenbericht OCR</h3>
+            <p data-i18n="ocrText">Liest Kassenberichte aus, erkennt Datum, Betrag und Buchungstext und überträgt die Daten kontrolliert in DATEV. Mit Dry-Run und Fehlerprotokoll.</p>
+            <ul><li>OCR</li><li>Browser Automation</li><li>Logging</li></ul>
+          </div>
+          <span class="project-link">↗</span>
+        </a>
+
+        <a class="project project-shop reveal" href="https://github.com/FREYHOFER/tiktokshop" target="_blank" rel="noreferrer">
+          <div class="project-visual visual-shop" aria-hidden="true">
+            <div class="book-stack"><i></i><i></i><i></i></div>
+            <div class="pipeline"><span>LIBRI</span><b>EAN</b><span>XLSX</span><b>STOCK</b><span>TIKTOK</span></div>
+            <div class="status-chip">VALIDATED</div>
+          </div>
+          <div class="project-copy">
+            <div class="project-number">02</div>
+            <p class="project-tech">Python · GitHub Actions · APIs</p>
+            <h3 data-i18n="shopTitle">TikTok Shop × Libri</h3>
+            <p data-i18n="shopText">Erstellt geprüfte Produktimporte aus Libri-Daten, synchronisiert Bestände und bereitet Bestellungen für den Buchhandel vor.</p>
+            <ul><li>E-Commerce</li><li>Data Pipeline</li><li>Automation</li></ul>
+          </div>
+          <span class="project-link">↗</span>
+        </a>
+
+        <a class="project project-libft reveal" href="https://github.com/FREYHOFER/libft" target="_blank" rel="noreferrer">
+          <div class="project-visual visual-libft" aria-hidden="true">
+            <div class="code-window"><span>libft.h</span><code>ft_memcpy()</code><code>ft_split()</code><code>ft_lstmap()</code><strong>42</strong></div>
+          </div>
+          <div class="project-copy">
+            <div class="project-number">03</div>
+            <p class="project-tech">C · Make · Unix</p>
+            <h3>libft</h3>
+            <p data-i18n="libftText">Grundlagenprojekt im 42-Curriculum, abgeschlossen bei 42 Rio: eine eigene C-Bibliothek mit Speicher-, String- und Listenfunktionen.</p>
+            <ul><li>C</li><li>Memory</li><li>Linked Lists</li></ul>
+          </div>
+          <span class="project-link">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="experience section-shell" id="experience">
+      <div class="section-label reveal"><span>03</span><p data-i18n="experienceLabel">Erfahrung</p></div>
+      <div class="experience-grid">
+        <article class="featured-experience reveal">
+          <div class="experience-top"><span data-i18n="bookstoreDate">Langjährige Mitarbeit · mehr Verantwortung seit 2026</span><span>Hamburg</span></div>
+          <h2>Schnelsener Büchereck</h2>
+          <h3 data-i18n="bookstoreRole">Digitale und operative Verantwortung im Familienunternehmen</h3>
+          <p data-i18n="bookstoreText">Tagesgeschäft, Online-Vertrieb, TikTok Shop, Automatisierungen, Creator-Kooperationen, Veranstaltungen und lokale Kommunikation.</p>
+          <div class="experience-tags"><span>E-Commerce</span><span>Automation</span><span>Retail</span><span>Marketing</span></div>
+        </article>
+        <div class="experience-list reveal">
+          <article><span>2023-2024 · Chile</span><div><h3 data-i18n="hostelRole">Rezeption und Organisation</h3><p>LÖF Hostal · PazZHOtel Eco/Art</p></div></article>
+          <article><span>10/2023 · Hamburg</span><div><h3 data-i18n="itRole">IT-Praktikum</h3><p>Peter Mattfeld & Sohn</p></div></article>
+          <article><span>06-07/2023 · Deutschland</span><div><h3>Fundraising</h3><p>Direct Result Marketing Deutschland</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-skills section-shell" id="education">
+      <div class="education-card reveal">
+        <div class="section-label"><span>04</span><p data-i18n="educationLabel">Ausbildung</p></div>
+        <div class="education-items">
+          <article><span data-i18n="since2026">seit 2026</span><div><h3>42 Berlin</h3><p data-i18n="berlinText">Software Engineering · projektbasiertes Peer-Learning</p></div></article>
+          <article><span>2025</span><div><h3>42 Rio</h3><p data-i18n="rioText">Software Engineering · C, Algorithmen und Unix</p></div></article>
+          <article><span>2024-2025</span><div><h3>Aix-Marseille Université</h3><p>MIASHS</p></div></article>
+          <article><span>2023</span><div><h3>Gymnasium Dörpsweg</h3><p data-i18n="abiturText">Abitur · 2,2</p></div></article>
+        </div>
+      </div>
+      <div class="skills-card reveal">
+        <div class="section-label"><span>05</span><p data-i18n="skillsLabel">Skills</p></div>
+        <div class="skill-lines">
+          <p><span>Code</span><strong>C · Python · Git · Linux</strong></p>
+          <p><span>Automation</span><strong>Playwright · OCR · APIs · GitHub Actions</strong></p>
+          <p><span>Business</span><strong>E-Commerce · Retail · Operations</strong></p>
+        </div>
+        <div class="language-list">
+          <div><span data-i18n="german">Deutsch</span><strong data-i18n="native">Muttersprache</strong></div>
+          <div><span data-i18n="spanish">Spanisch</span><strong data-i18n="secondNative">Zweite Muttersprache</strong></div>
+          <div><span data-i18n="english">Englisch</span><strong>C2</strong></div>
+          <div><span data-i18n="french">Französisch</span><strong>B2</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <div class="contact-panel reveal">
+        <div><p class="overline" data-i18n="contactLabel">Kontakt</p><h2 data-i18n="contactHeading">Schreib mir direkt.</h2></div>
+        <a class="contact-mail magnetic" href="mailto:paul@freyhofer.de">paul@freyhofer.de <span>↗</span></a>
+        <div class="contact-links"><a href="https://github.com/FREYHOFER" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/paul-freyhofer-a4055519a" target="_blank" rel="noreferrer">LinkedIn ↗</a><button id="copyEmail" type="button" data-i18n="copyEmail">E-Mail kopieren</button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Paul Freyhofer</span><span>Berlin · Hamburg</span><a class="cv-download" href="paul-freyhofer-cv-de.pdf" download data-i18n="footerCv">CV PDF ↓</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
