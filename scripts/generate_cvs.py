@@ -341,7 +341,7 @@ def build_pdf(lang, copy):
         '  |  Berlin / Hamburg<br/>'
         '<link href="https://github.com/FREYHOFER" color="#636860">github.com/FREYHOFER</link>'
         '  |  <link href="https://www.linkedin.com/in/paul-freyhofer-a4055519a" color="#636860">linkedin.com/in/paul-freyhofer</link><br/>'
-        '<link href="https://paul-freyhofer.vercel.app" color="#636860">paul-freyhofer.vercel.app</link>'
+        '<link href="https://paulfreyhofer.vercel.app" color="#636860">paulfreyhofer.vercel.app</link>'
     )
     header_text = [
         Paragraph("Paul Freyhofer", s["name"]),
