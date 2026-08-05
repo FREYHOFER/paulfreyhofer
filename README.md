@@ -1,4 +1,4 @@
-# Paul Freyhofer — Portfolio & CV
+# Paul Freyhofer - Portfolio & CV
 
 Personal portfolio and résumé website for Paul Freyhofer.
 
@@ -6,11 +6,21 @@ Personal portfolio and résumé website for Paul Freyhofer.
 
 - German, English, French and Spanish
 - Responsive one-page portfolio
-- Dark and light mode
+- Warm editorial color system with dark and light mode
+- Personal photography and responsive layouts
 - Motion effects with reduced-motion fallback
 - Selected GitHub projects
-- Downloadable CV PDFs in four languages
+- Classic, downloadable CV PDFs with portrait in four languages
 - Static deployment on Vercel
+
+## Rebuild the CV PDFs
+
+```bash
+python scripts/generate_cvs.py
+```
+
+The generator writes review copies to `output/pdf/` and refreshes the four
+stable download files in the project root.
 
 ## Deployment
 
