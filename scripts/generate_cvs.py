@@ -41,9 +41,10 @@ COPY = {
         ),
         "experience": "BERUFSERFAHRUNG",
         "experience_items": [
-            ("seit 2026 | Hamburg", "Digitale Projekte und operative Mitarbeit", "Schnelsener Büchereck", [
+            ("seit 2026 | Hamburg", "Digitale Projekte, operative Mitarbeit und Stadtteilarbeit", "Schnelsener Büchereck", [
                 "Online-Vertrieb, TikTok Shop, Instagram Ads und Produktdaten-Workflows.",
-                "DATEV-Automatisierung, Creator-Kooperationen, Veranstaltungen und Tagesgeschäft."
+                "DATEV-Automatisierung, Creator-Kooperationen und Tagesgeschäft.",
+                "Mit HI! Schnelsen: Lesungen und Stadtteilveranstaltungen, Social Media, Begegnungsorte und Einsatz für eine fußgängerfreundlichere Frohmestraße."
             ]),
             ("10/2025 - heute | Rio de Janeiro / hybrid", "Produktentwickler", "Blink P&C", [
                 "n8n-Chatbot für kleine Dienstleister: freie Kalenderzeiten prüfen und bestätigte Termine direkt eintragen."
@@ -66,11 +67,6 @@ COPY = {
             ("2024-2025", "Aix-Marseille Université", "MIASHS"),
             ("2023", "Gymnasium Dörpsweg", "Abitur | 2,2"),
         ],
-        "engagement": "EHRENAMT",
-        "engagement_item": (
-            "HI! Schnelsen | Schnelsener Freundeskreis e.V.",
-            "Lesungen und Stadtteilveranstaltungen, Social Media, Begegnungsorte sowie Einsatz für Aufenthaltsqualität und eine fußgängerfreundlichere Frohmestraße."
-        ),
         "skills": "KOMPETENZEN",
         "skills_items": [
             ("Code", "C, Python, JavaScript, Git, Linux"),
@@ -98,9 +94,10 @@ COPY = {
         ),
         "experience": "EXPERIENCE",
         "experience_items": [
-            ("since 2026 | Hamburg", "Digital projects and operations", "Schnelsener Büchereck", [
+            ("since 2026 | Hamburg", "Digital projects, operations and community work", "Schnelsener Büchereck", [
                 "Online sales, TikTok Shop, Instagram Ads and product-data workflows.",
-                "DATEV automation, creator partnerships, events and daily operations."
+                "DATEV automation, creator partnerships and daily operations.",
+                "With HI! Schnelsen: readings and neighbourhood events, social media, meeting spaces and advocacy for a more pedestrian-friendly Frohmestraße."
             ]),
             ("10/2025 - present | Rio de Janeiro / hybrid", "Product Developer", "Blink P&C", [
                 "n8n chatbot for small service businesses: check free calendar slots and add confirmed appointments directly."
@@ -123,11 +120,6 @@ COPY = {
             ("2024-2025", "Aix-Marseille University", "MIASHS"),
             ("2023", "Gymnasium Dörpsweg", "German Abitur | 2.2"),
         ],
-        "engagement": "COMMUNITY ENGAGEMENT",
-        "engagement_item": (
-            "HI! Schnelsen | Schnelsener Freundeskreis e.V.",
-            "Readings and neighbourhood events, social media, meeting spaces, and advocacy for a more welcoming and pedestrian-friendly Frohmestraße."
-        ),
         "skills": "SKILLS",
         "skills_items": [
             ("Code", "C, Python, JavaScript, Git, Linux"),
@@ -155,9 +147,10 @@ COPY = {
         ),
         "experience": "EXPÉRIENCE",
         "experience_items": [
-            ("depuis 2026 | Hambourg", "Projets numériques et activité opérationnelle", "Schnelsener Büchereck", [
+            ("depuis 2026 | Hambourg", "Projets numériques, activité opérationnelle et engagement local", "Schnelsener Büchereck", [
                 "Vente en ligne, TikTok Shop, campagnes Instagram et flux de données produits.",
-                "Automatisation DATEV, partenariats avec des créateurs, événements et activité quotidienne."
+                "Automatisation DATEV, partenariats avec des créateurs et activité quotidienne.",
+                "Avec HI! Schnelsen : lectures et événements de quartier, réseaux sociaux, lieux de rencontre et engagement pour une Frohmestraße plus accueillante pour les piétons."
             ]),
             ("10/2025 - aujourd'hui | Rio de Janeiro / hybride", "Développeur produit", "Blink P&C", [
                 "Chatbot n8n pour petits prestataires : vérifier les créneaux libres et inscrire directement les rendez-vous confirmés."
@@ -180,11 +173,6 @@ COPY = {
             ("2024-2025", "Aix-Marseille Université", "MIASHS"),
             ("2023", "Gymnasium Dörpsweg", "Abitur allemand | 2,2"),
         ],
-        "engagement": "ENGAGEMENT LOCAL",
-        "engagement_item": (
-            "HI! Schnelsen | Schnelsener Freundeskreis e.V.",
-            "Lectures et événements de quartier, réseaux sociaux, lieux de rencontre et engagement pour une Frohmestraße plus agréable et accueillante pour les piétons."
-        ),
         "skills": "COMPÉTENCES",
         "skills_items": [
             ("Code", "C, Python, JavaScript, Git, Linux"),
@@ -212,9 +200,10 @@ COPY = {
         ),
         "experience": "EXPERIENCIA",
         "experience_items": [
-            ("desde 2026 | Hamburgo", "Proyectos digitales y trabajo operativo", "Schnelsener Büchereck", [
+            ("desde 2026 | Hamburgo", "Proyectos digitales, trabajo operativo y compromiso local", "Schnelsener Büchereck", [
                 "Venta online, TikTok Shop, campañas de Instagram y flujos de datos de producto.",
-                "Automatización con DATEV, colaboraciones con creadores, eventos y operación diaria."
+                "Automatización con DATEV, colaboraciones con creadores y operación diaria.",
+                "Con HI! Schnelsen: lecturas y eventos de barrio, redes sociales, espacios de encuentro y trabajo por una Frohmestraße más orientada a los peatones."
             ]),
             ("10/2025 - actualidad | Río de Janeiro / híbrido", "Desarrollador de producto", "Blink P&C", [
                 "Chatbot n8n para pequeños negocios de servicios: comprobar huecos libres y registrar las citas confirmadas."
@@ -237,11 +226,6 @@ COPY = {
             ("2024-2025", "Aix-Marseille Université", "MIASHS"),
             ("2023", "Gymnasium Dörpsweg", "Abitur alemán | 2,2"),
         ],
-        "engagement": "COMPROMISO LOCAL",
-        "engagement_item": (
-            "HI! Schnelsen | Schnelsener Freundeskreis e.V.",
-            "Lecturas y eventos de barrio, redes sociales, espacios de encuentro y trabajo por una Frohmestraße más agradable y orientada a los peatones."
-        ),
         "skills": "COMPETENCIAS",
         "skills_items": [
             ("Código", "C, Python, JavaScript, Git, Linux"),
@@ -397,13 +381,6 @@ def build_pdf(lang, copy):
     right.extend(section_heading(copy["education"], s))
     for item in copy["education_items"]:
         right.extend(education_item(*item, s))
-    right.extend(section_heading(copy["engagement"], s))
-    engagement_title, engagement_detail = copy["engagement_item"]
-    right.extend([
-        Paragraph(escape(engagement_title), s["role"]),
-        Paragraph(escape(engagement_detail), s["small_muted"]),
-        Spacer(1, 2.3 * mm),
-    ])
     right.extend(section_heading(copy["skills"], s))
     for label, detail in copy["skills_items"]:
         right.extend([
