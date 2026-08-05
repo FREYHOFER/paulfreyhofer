@@ -46,10 +46,12 @@ COPY = {
                 "DATEV-Automatisierung, Creator-Kooperationen und Tagesgeschäft.",
                 "Mit HI! Schnelsen: Lesungen und Stadtteilveranstaltungen, Social Media, Begegnungsorte und Einsatz für eine fußgängerfreundlichere Frohmestraße."
             ]),
-            ("10/2025 - heute | Rio de Janeiro / hybrid", "Produktentwickler", "Blink P&C", [
+            ("10/2025 - 03/2026 | Rio de Janeiro / hybrid", "Produktentwickler", "Blink P&C", [
                 "n8n-Chatbot für kleine Dienstleister: freie Kalenderzeiten prüfen und bestätigte Termine direkt eintragen."
             ]),
-            ("03-07/2025 | Marseille", "Tourguide und Gästebetreuung", "Planet Azur", []),
+            ("03-07/2025 | Marseille", "Tourguide", "Planet Azur", [
+                "Administrative Aufgaben und Planung neuer Touren an weiteren Standorten."
+            ]),
             ("2023-2024 | Chile", "Rezeption und Organisation", "LÖF Hostal | PazZHOtel Eco/Art", []),
             ("10/2023 | Hamburg", "IT-Praktikum", "Peter Mattfeld & Sohn", []),
             ("06-07/2023 | Deutschland", "Fundraising", "Direct Result Marketing Deutschland", []),
@@ -99,10 +101,12 @@ COPY = {
                 "DATEV automation, creator partnerships and daily operations.",
                 "With HI! Schnelsen: readings and neighbourhood events, social media, meeting spaces and advocacy for a more pedestrian-friendly Frohmestraße."
             ]),
-            ("10/2025 - present | Rio de Janeiro / hybrid", "Product Developer", "Blink P&C", [
+            ("10/2025 - 03/2026 | Rio de Janeiro / hybrid", "Product Developer", "Blink P&C", [
                 "n8n chatbot for small service businesses: check free calendar slots and add confirmed appointments directly."
             ]),
-            ("03-07/2025 | Marseille", "Tour guide and guest support", "Planet Azur", []),
+            ("03-07/2025 | Marseille", "Tour guide", "Planet Azur", [
+                "Administrative work and planning new tours at additional locations."
+            ]),
             ("2023-2024 | Chile", "Reception and operations", "LÖF Hostal | PazZHOtel Eco/Art", []),
             ("10/2023 | Hamburg", "IT Intern", "Peter Mattfeld & Sohn", []),
             ("06-07/2023 | Germany", "Fundraising", "Direct Result Marketing Deutschland", []),
@@ -152,10 +156,12 @@ COPY = {
                 "Automatisation DATEV, partenariats avec des créateurs et activité quotidienne.",
                 "Avec HI! Schnelsen : lectures et événements de quartier, réseaux sociaux, lieux de rencontre et engagement pour une Frohmestraße plus accueillante pour les piétons."
             ]),
-            ("10/2025 - aujourd'hui | Rio de Janeiro / hybride", "Développeur produit", "Blink P&C", [
+            ("10/2025 - 03/2026 | Rio de Janeiro / hybride", "Développeur produit", "Blink P&C", [
                 "Chatbot n8n pour petits prestataires : vérifier les créneaux libres et inscrire directement les rendez-vous confirmés."
             ]),
-            ("03-07/2025 | Marseille", "Guide touristique et accueil", "Planet Azur", []),
+            ("03-07/2025 | Marseille", "Guide touristique", "Planet Azur", [
+                "Tâches administratives et planification de nouvelles visites sur d'autres sites."
+            ]),
             ("2023-2024 | Chili", "Réception et organisation", "LÖF Hostal | PazZHOtel Eco/Art", []),
             ("10/2023 | Hambourg", "Stagiaire informatique", "Peter Mattfeld & Sohn", []),
             ("06-07/2023 | Allemagne", "Collecte de fonds", "Direct Result Marketing Deutschland", []),
@@ -205,10 +211,12 @@ COPY = {
                 "Automatización con DATEV, colaboraciones con creadores y operación diaria.",
                 "Con HI! Schnelsen: lecturas y eventos de barrio, redes sociales, espacios de encuentro y trabajo por una Frohmestraße más orientada a los peatones."
             ]),
-            ("10/2025 - actualidad | Río de Janeiro / híbrido", "Desarrollador de producto", "Blink P&C", [
+            ("10/2025 - 03/2026 | Río de Janeiro / híbrido", "Desarrollador de producto", "Blink P&C", [
                 "Chatbot n8n para pequeños negocios de servicios: comprobar huecos libres y registrar las citas confirmadas."
             ]),
-            ("03-07/2025 | Marsella", "Guía turístico y atención a visitantes", "Planet Azur", []),
+            ("03-07/2025 | Marsella", "Guía turístico", "Planet Azur", [
+                "Tareas administrativas y planificación de nuevos tours en otras ubicaciones."
+            ]),
             ("2023-2024 | Chile", "Recepción y organización", "LÖF Hostal | PazZHOtel Eco/Art", []),
             ("10/2023 | Hamburgo", "Prácticas de TI", "Peter Mattfeld & Sohn", []),
             ("06-07/2023 | Alemania", "Captación de fondos", "Direct Result Marketing Deutschland", []),
