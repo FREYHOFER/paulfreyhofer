@@ -42,11 +42,11 @@ COPY = {
         "experience": "BERUFSERFAHRUNG",
         "experience_items": [
             ("seit 2026 | Hamburg", "Digitale Projekte und operative Mitarbeit", "Schnelsener Büchereck", [
-                "Online-Vertrieb, TikTok Shop und Produktdaten-Workflows.",
+                "Online-Vertrieb, TikTok Shop, Instagram Ads und Produktdaten-Workflows.",
                 "DATEV-Automatisierung, Creator-Kooperationen, Veranstaltungen und Tagesgeschäft."
             ]),
             ("10/2025 - heute | Rio de Janeiro / hybrid", "Produktentwickler", "Blink P&C | freiberuflich", [
-                "Entwicklung eines Terminvereinbarungs-Chatbots mit n8n für kleine Unternehmen."
+                "n8n-Chatbot für kleine Dienstleister: freie Kalenderzeiten prüfen und bestätigte Termine direkt eintragen."
             ]),
             ("03-07/2025 | Marseille", "Tourguide und Gästebetreuung", "Planet Azur", []),
             ("2023-2024 | Chile", "Rezeption und Organisation", "LÖF Hostal | PazZHOtel Eco/Art", []),
@@ -57,7 +57,7 @@ COPY = {
         "project_items": [
             ("DATEV Kassenbericht OCR", "Python, OCR, Playwright | Kontrollierte Übertragung von Kassenberichten in DATEV."),
             ("TikTok Shop x Libri", "Python, APIs, GitHub Actions | Produktimporte, Bestandsabgleich und Bestellvorbereitung."),
-            ("libft", "C, Make, Unix | Eigene C-Bibliothek im 42-Curriculum."),
+            ("Vergabe Radar", "Next.js, TypeScript, Supabase | Nachvollziehbares Matching öffentlicher IT-Ausschreibungen mit Anbieterprofilen."),
         ],
         "education": "AUSBILDUNG",
         "education_items": [
@@ -79,6 +79,7 @@ COPY = {
             ("Spanisch", "zweite Muttersprache"),
             ("Englisch", "C2"),
             ("Französisch", "B2"),
+            ("Portugiesisch", "ca. B1"),
         ],
         "footer": "Lebenslauf | August 2026",
     },
@@ -93,11 +94,11 @@ COPY = {
         "experience": "EXPERIENCE",
         "experience_items": [
             ("since 2026 | Hamburg", "Digital projects and operations", "Schnelsener Büchereck", [
-                "Online sales, TikTok Shop and product-data workflows.",
+                "Online sales, TikTok Shop, Instagram Ads and product-data workflows.",
                 "DATEV automation, creator partnerships, events and daily operations."
             ]),
             ("10/2025 - present | Rio de Janeiro / hybrid", "Product Developer", "Blink P&C | freelance", [
-                "Built an appointment-booking chatbot with n8n for small businesses."
+                "n8n chatbot for small service businesses: check free calendar slots and add confirmed appointments directly."
             ]),
             ("03-07/2025 | Marseille", "Tour guide and guest support", "Planet Azur", []),
             ("2023-2024 | Chile", "Reception and operations", "LÖF Hostal | PazZHOtel Eco/Art", []),
@@ -108,7 +109,7 @@ COPY = {
         "project_items": [
             ("DATEV Cash Report OCR", "Python, OCR, Playwright | Controlled transfer of cash reports into DATEV."),
             ("TikTok Shop x Libri", "Python, APIs, GitHub Actions | Product imports, stock sync and order preparation."),
-            ("libft", "C, Make, Unix | Custom C library in the 42 curriculum."),
+            ("Tender Radar", "Next.js, TypeScript, Supabase | Transparent matching of public IT tenders with provider profiles."),
         ],
         "education": "EDUCATION",
         "education_items": [
@@ -130,6 +131,7 @@ COPY = {
             ("Spanish", "second native language"),
             ("English", "C2"),
             ("French", "B2"),
+            ("Portuguese", "approx. B1"),
         ],
         "footer": "Curriculum Vitae | August 2026",
     },
@@ -144,11 +146,11 @@ COPY = {
         "experience": "EXPÉRIENCE",
         "experience_items": [
             ("depuis 2026 | Hambourg", "Projets numériques et activité opérationnelle", "Schnelsener Büchereck", [
-                "Vente en ligne, TikTok Shop et flux de données produits.",
+                "Vente en ligne, TikTok Shop, campagnes Instagram et flux de données produits.",
                 "Automatisation DATEV, partenariats avec des créateurs, événements et activité quotidienne."
             ]),
             ("10/2025 - aujourd'hui | Rio de Janeiro / hybride", "Développeur produit", "Blink P&C | freelance", [
-                "Développement d'un chatbot de prise de rendez-vous avec n8n pour les petites entreprises."
+                "Chatbot n8n pour petits prestataires : vérifier les créneaux libres et inscrire directement les rendez-vous confirmés."
             ]),
             ("03-07/2025 | Marseille", "Guide touristique et accueil", "Planet Azur", []),
             ("2023-2024 | Chili", "Réception et organisation", "LÖF Hostal | PazZHOtel Eco/Art", []),
@@ -159,7 +161,7 @@ COPY = {
         "project_items": [
             ("OCR des rapports de caisse DATEV", "Python, OCR, Playwright | Transfert contrôlé des rapports de caisse dans DATEV."),
             ("TikTok Shop x Libri", "Python, APIs, GitHub Actions | Imports produits, stocks et préparation des commandes."),
-            ("libft", "C, Make, Unix | Bibliothèque C créée dans le cursus 42."),
+            ("Radar des appels d'offres", "Next.js, TypeScript, Supabase | Mise en correspondance transparente entre appels d'offres informatiques et prestataires."),
         ],
         "education": "FORMATION",
         "education_items": [
@@ -181,6 +183,7 @@ COPY = {
             ("Espagnol", "deuxième langue maternelle"),
             ("Anglais", "C2"),
             ("Français", "B2"),
+            ("Portugais", "env. B1"),
         ],
         "footer": "Curriculum Vitae | Août 2026",
     },
@@ -195,11 +198,11 @@ COPY = {
         "experience": "EXPERIENCIA",
         "experience_items": [
             ("desde 2026 | Hamburgo", "Proyectos digitales y trabajo operativo", "Schnelsener Büchereck", [
-                "Venta online, TikTok Shop y flujos de datos de producto.",
+                "Venta online, TikTok Shop, campañas de Instagram y flujos de datos de producto.",
                 "Automatización con DATEV, colaboraciones con creadores, eventos y operación diaria."
             ]),
             ("10/2025 - actualidad | Río de Janeiro / híbrido", "Desarrollador de producto", "Blink P&C | freelance", [
-                "Desarrollo de un chatbot de reserva de citas con n8n para pequeñas empresas."
+                "Chatbot n8n para pequeños negocios de servicios: comprobar huecos libres y registrar las citas confirmadas."
             ]),
             ("03-07/2025 | Marsella", "Guía turístico y atención a visitantes", "Planet Azur", []),
             ("2023-2024 | Chile", "Recepción y organización", "LÖF Hostal | PazZHOtel Eco/Art", []),
@@ -210,7 +213,7 @@ COPY = {
         "project_items": [
             ("OCR de informes de caja DATEV", "Python, OCR, Playwright | Transferencia controlada de informes de caja a DATEV."),
             ("TikTok Shop x Libri", "Python, APIs, GitHub Actions | Importaciones, existencias y preparación de pedidos."),
-            ("libft", "C, Make, Unix | Biblioteca propia de C dentro del currículo de 42."),
+            ("Radar de licitaciones", "Next.js, TypeScript, Supabase | Vinculación transparente de licitaciones públicas de TI con proveedores."),
         ],
         "education": "FORMACIÓN",
         "education_items": [
@@ -232,6 +235,7 @@ COPY = {
             ("Español", "segunda lengua materna"),
             ("Inglés", "C2"),
             ("Francés", "B2"),
+            ("Portugués", "aprox. B1"),
         ],
         "footer": "Curriculum Vitae | Agosto 2026",
     },

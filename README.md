@@ -7,7 +7,7 @@ Personal portfolio and résumé website for Paul Freyhofer.
 - German, English, French and Spanish
 - Responsive one-page portfolio
 - Warm editorial color system with dark and light mode
-- Personal photography and responsive layouts
+- Integrated portrait and responsive layouts
 - Motion effects with reduced-motion fallback
 - Selected GitHub projects
 - Classic, downloadable CV PDFs with portrait in four languages
