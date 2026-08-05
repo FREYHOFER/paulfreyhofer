@@ -41,7 +41,7 @@ COPY = {
         ),
         "experience": "BERUFSERFAHRUNG",
         "experience_items": [
-            ("seit 2026 | Hamburg", "Digitale Projekte, operative Mitarbeit und Stadtteilarbeit", "Schnelsener Büchereck", [
+            ("langjährige Mitarbeit | Digitalprojekte seit 2026 | Hamburg", "Digitale Projekte, operative Mitarbeit und Stadtteilarbeit", "Schnelsener Büchereck", [
                 "Online-Vertrieb, TikTok Shop, Instagram Ads und Produktdaten-Workflows.",
                 "DATEV-Automatisierung, Creator-Kooperationen und Tagesgeschäft.",
                 "Mit HI! Schnelsen: Lesungen und Stadtteilveranstaltungen, Social Media, Begegnungsorte und Einsatz für eine fußgängerfreundlichere Frohmestraße."
@@ -94,7 +94,7 @@ COPY = {
         ),
         "experience": "EXPERIENCE",
         "experience_items": [
-            ("since 2026 | Hamburg", "Digital projects, operations and community work", "Schnelsener Büchereck", [
+            ("long-standing role | digital projects since 2026 | Hamburg", "Digital projects, operations and community work", "Schnelsener Büchereck", [
                 "Online sales, TikTok Shop, Instagram Ads and product-data workflows.",
                 "DATEV automation, creator partnerships and daily operations.",
                 "With HI! Schnelsen: readings and neighbourhood events, social media, meeting spaces and advocacy for a more pedestrian-friendly Frohmestraße."
@@ -147,7 +147,7 @@ COPY = {
         ),
         "experience": "EXPÉRIENCE",
         "experience_items": [
-            ("depuis 2026 | Hambourg", "Projets numériques, activité opérationnelle et engagement local", "Schnelsener Büchereck", [
+            ("collaboration de longue date | projets numériques depuis 2026 | Hambourg", "Projets numériques, activité opérationnelle et engagement local", "Schnelsener Büchereck", [
                 "Vente en ligne, TikTok Shop, campagnes Instagram et flux de données produits.",
                 "Automatisation DATEV, partenariats avec des créateurs et activité quotidienne.",
                 "Avec HI! Schnelsen : lectures et événements de quartier, réseaux sociaux, lieux de rencontre et engagement pour une Frohmestraße plus accueillante pour les piétons."
@@ -200,7 +200,7 @@ COPY = {
         ),
         "experience": "EXPERIENCIA",
         "experience_items": [
-            ("desde 2026 | Hamburgo", "Proyectos digitales, trabajo operativo y compromiso local", "Schnelsener Büchereck", [
+            ("colaboración de larga trayectoria | proyectos digitales desde 2026 | Hamburgo", "Proyectos digitales, trabajo operativo y compromiso local", "Schnelsener Büchereck", [
                 "Venta online, TikTok Shop, campañas de Instagram y flujos de datos de producto.",
                 "Automatización con DATEV, colaboraciones con creadores y operación diaria.",
                 "Con HI! Schnelsen: lecturas y eventos de barrio, redes sociales, espacios de encuentro y trabajo por una Frohmestraße más orientada a los peatones."
