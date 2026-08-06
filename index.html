@@ -101,7 +101,19 @@
       <div class="project-list">
         <a class="project reveal" href="https://github.com/FREYHOFER/KassenberichtOCR" target="_blank" rel="noreferrer">
           <div class="project-visual visual-ocr" aria-hidden="true">
-            <span class="visual-index">01</span><strong>OCR</strong><small>DATEV / Python</small>
+            <span class="visual-index">01</span>
+            <div class="ocr-flow">
+              <div class="ocr-document">
+                <div class="ocr-document-head"><span>Kassenbericht</span><b>08/26</b></div>
+                <div class="ocr-document-row"><span>Datum</span><b>05.08.</b></div>
+                <div class="ocr-document-row"><span>Betrag</span><b>127,40 €</b></div>
+                <div class="ocr-document-row"><span>Text</span><b>Barverkauf</b></div>
+                <span class="ocr-scan-line"></span>
+              </div>
+              <div class="ocr-transfer"><span>OCR</span><i>→</i></div>
+              <div class="datev-mark"><img src="assets/logos/datev.svg" alt=""></div>
+            </div>
+            <small>Beleg lesen · prüfen · übertragen</small>
           </div>
           <div class="project-copy">
             <p class="project-tech">Python · OCR · Playwright</p>
@@ -115,11 +127,18 @@
         <a class="project reveal" href="https://github.com/FREYHOFER/tiktokshop" target="_blank" rel="noreferrer">
           <div class="project-visual visual-shop" aria-hidden="true">
             <span class="visual-index">02</span>
-            <div class="project-brand-pair">
-              <span class="project-brand project-brand-libri"><img src="assets/logos/libri.svg" alt=""></span>
-              <span class="project-brand project-brand-tiktok"><img src="assets/logos/tiktok.png" alt=""></span>
+            <div class="shop-flow">
+              <span class="shop-node shop-node-libri"><img src="assets/logos/libri.svg" alt=""></span>
+              <div class="shop-pipeline">
+                <span class="pipeline-line"></span>
+                <span class="book-packet packet-one">ISBN</span>
+                <span class="book-packet packet-two">€</span>
+                <span class="book-packet packet-three">12</span>
+              </div>
+              <span class="shop-node shop-node-tiktok"><img src="assets/logos/tiktok.png" alt=""></span>
             </div>
-            <strong>SYNC</strong><small>Libri × TikTok Shop</small>
+            <div class="shop-legend"><span>Produktdaten</span><i>→</i><span>Bestand</span><i>→</i><span>Shop</span></div>
+            <small>Libri × TikTok Shop</small>
           </div>
           <div class="project-copy">
             <p class="project-tech">Python · GitHub Actions · APIs</p>
@@ -132,7 +151,21 @@
 
         <a class="project reveal" href="https://github.com/FREYHOFER/ausschreibungen" target="_blank" rel="noreferrer">
           <div class="project-visual visual-radar" aria-hidden="true">
-            <span class="visual-index">03</span><strong>RADAR</strong><small>Next.js / Matching</small>
+            <span class="visual-index">03</span>
+            <div class="radar-map">
+              <span class="map-road road-one"></span>
+              <span class="map-road road-two"></span>
+              <span class="map-road road-three"></span>
+              <span class="map-pin pin-one"><i></i></span>
+              <span class="map-pin pin-two"><i></i></span>
+              <span class="map-pin pin-three"><i></i></span>
+              <span class="radar-ring ring-one"></span>
+              <span class="radar-ring ring-two"></span>
+              <span class="radar-sweep"></span>
+              <span class="radar-center"></span>
+              <div class="match-card"><b>92%</b><span>IT-Ausschreibung</span><small>hoher Match</small></div>
+            </div>
+            <small>Region · Treffer · Matching</small>
           </div>
           <div class="project-copy">
             <p class="project-tech">Next.js · TypeScript · Supabase</p>
