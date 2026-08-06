@@ -133,6 +133,12 @@ select, .icon-button { height: 38px; border: 1px solid var(--line); border-radiu
 .project-visual strong { position: relative; z-index: 1; font-family: Georgia, "Times New Roman", serif; font-size: clamp(3.3rem, 6vw, 6.5rem); font-weight: 400; letter-spacing: -.06em; line-height: .8; }
 .project-visual small { position: relative; z-index: 1; margin-top: 1rem; color: rgba(255, 250, 241, .66); font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; }
 .visual-index { position: absolute; top: 1rem; left: 1rem; font-size: .7rem; letter-spacing: .1em; }
+.project-brand-pair { position: absolute; z-index: 1; top: 1rem; right: 1rem; display: flex; align-items: center; gap: .42rem; }
+.project-brand { display: grid; width: 42px; height: 42px; overflow: hidden; place-items: center; background: rgba(255, 255, 255, .9); border: 1px solid rgba(33, 29, 24, .14); border-radius: 11px; box-shadow: 0 8px 22px rgba(33, 29, 24, .1); }
+.project-brand img { display: block; max-width: 72%; max-height: 72%; object-fit: contain; }
+.project-brand-libri img { max-width: 58%; max-height: 72%; }
+.project-brand-tiktok { background: #050505; }
+.project-brand-tiktok img { width: 58px; max-width: none; max-height: none; }
 .visual-shop { color: #211d18; background: var(--accent-2); }
 .visual-shop small { color: rgba(33, 29, 24, .62); }
 .visual-shop::after { border-color: rgba(33, 29, 24, .25); }
@@ -156,9 +162,13 @@ select, .icon-button { height: 38px; border: 1px solid var(--line); border-radiu
 .experience-tags span { padding: .35rem .6rem; border: 1px solid var(--line); border-radius: 99px; font-size: .66rem; }
 .bookstore-community { margin-top: 1.6rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
 .bookstore-community-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .65rem; color: var(--accent); font-size: .66rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-.bookstore-community-top a { padding-bottom: .1rem; border-bottom: 1px solid currentColor; }
+.community-brand-link { display: flex; align-items: center; gap: .55rem; }
+.community-brand-link > span:last-child { padding-bottom: .1rem; border-bottom: 1px solid currentColor; }
 .featured-experience .bookstore-community p { margin: 0; font-size: .82rem; }
 .blink-experience { color: #fffaf1; background: var(--deep); }
+.feature-brand-mark { display: flex; align-items: center; justify-content: center; width: 158px; height: 54px; margin-top: 2.6rem; overflow: hidden; background: #fff; border: 1px solid rgba(255, 250, 241, .24); border-radius: 13px; }
+.brand-mark-blink img { width: 158px; max-width: none; height: 158px; object-fit: contain; }
+.blink-experience h2 { margin-top: 1.25rem; }
 .blink-experience .experience-top, .blink-experience p { color: rgba(255, 250, 241, .72); }
 .blink-experience .experience-tags span { border-color: rgba(255, 250, 241, .24); }
 html[data-theme="dark"] .blink-experience { color: #171b18; }
@@ -172,6 +182,14 @@ html[data-theme="dark"] .blink-experience .experience-tags span { border-color: 
 .experience-list article > span span { color: inherit; }
 .experience-list h3 { margin: 0 0 .2rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.04rem; font-weight: 400; }
 .experience-list p { margin: 0; color: var(--muted); font-size: .78rem; }
+.experience-company { display: flex; align-items: center; gap: .65rem; margin-top: .55rem; }
+.brand-mark { flex: 0 0 auto; display: grid; width: 42px; height: 42px; overflow: hidden; place-items: center; background: #fff; border: 1px solid var(--line); border-radius: 11px; }
+.brand-mark img { display: block; max-width: 78%; max-height: 78%; object-fit: contain; }
+.brand-mark-hi { width: 34px; height: 34px; border-radius: 50%; }
+.brand-mark-hi img { width: 42px; max-width: none; height: 42px; max-height: none; object-fit: contain; }
+.brand-mark-symbol img { max-width: 68%; max-height: 68%; }
+.brand-mark-wide { width: 72px; }
+.brand-mark-wide img { max-width: 84%; }
 
 .education-skills { display: grid; grid-template-columns: 1.03fr .97fr; gap: 1rem; }
 .education-card, .skills-card { padding: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
@@ -232,6 +250,7 @@ footer { display: flex; justify-content: space-between; gap: 1rem; max-width: va
   .experience-list article, .experience-list article:nth-child(even), .education-items article { grid-template-columns: 1fr; padding: 1.15rem 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .experience-list article:nth-last-child(2) { border-bottom: 1px solid var(--line); }
   .experience-list article:last-child { border-bottom: 0; }
+  .experience-company { align-items: flex-start; }
   .featured-experience h2 { margin-top: 2.6rem; }
   .language-list { grid-template-columns: 1fr 1fr; }
   .contact-panel { grid-template-columns: 1fr; border-radius: 24px; }
