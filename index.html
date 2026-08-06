@@ -10,7 +10,8 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://paulfreyhofer.vercel.app/assets/hamburg-sunset.jpg">
   <title>Paul Freyhofer - Portfolio & Lebenslauf</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/paul-freyhofer-cutout.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/paul-freyhofer-cutout.png">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
   <script type="application/ld+json">
@@ -20,7 +21,7 @@
     "name":"Paul Freyhofer",
     "email":"mailto:paul@freyhofer.de",
     "url":"https://paulfreyhofer.vercel.app",
-    "image":"https://paulfreyhofer.vercel.app/assets/paul-freyhofer-portrait.jpg",
+    "image":"https://paulfreyhofer.vercel.app/assets/paul-freyhofer-cutout.png",
     "sameAs":["https://github.com/FREYHOFER","https://www.linkedin.com/in/paul-freyhofer-a4055519a"],
     "knowsLanguage":["German","Spanish","English","French","Portuguese"],
     "homeLocation":{"@type":"Place","name":"Berlin, Germany"}
@@ -33,7 +34,7 @@
 
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="Paul Freyhofer - Startseite">
-      <span class="mark">PF</span><span>Paul Freyhofer</span>
+      <span class="mark" aria-hidden="true"><img src="assets/paul-freyhofer-cutout.png" alt=""></span><span>Paul Freyhofer</span>
     </a>
     <nav aria-label="Navigation">
       <a href="#projects" data-i18n="navProjects">Projekte</a>
@@ -72,8 +73,8 @@
       </div>
 
       <div class="hero-media reveal">
-        <figure class="portrait-card">
-          <img src="assets/paul-freyhofer-portrait.jpg" alt="Porträt von Paul Freyhofer" width="1024" height="1280">
+        <figure class="portrait-sticker">
+          <img src="assets/paul-freyhofer-cutout.png" alt="Porträt von Paul Freyhofer" width="1122" height="1402">
         </figure>
       </div>
     </section>
@@ -85,10 +86,6 @@
         <div class="intro-text reveal">
           <p data-i18n="profileText1">Bei 42 Berlin vertiefe ich Software Engineering projektbasiert mit C, Git und Unix. Meine Arbeit verbindet technische Umsetzung mit Prozessverständnis: Webanwendungen und Automatisierungen, die im Arbeitsalltag funktionieren.</p>
           <p data-i18n="profileText2">Im Schnelsener Büchereck verbinde ich operative Mitarbeit mit digitalen Projekten - vom TikTok Shop und Instagram Ads bis zu Produktdaten-Workflows und DATEV-Automatisierung.</p>
-        </div>
-        <div class="facts reveal">
-          <div><strong>5</strong><span data-i18n="factLanguages">Sprachen</span></div>
-          <div><strong>DE · BR · FR · CL</strong><span data-i18n="factInternational">Studium und Arbeit international</span></div>
         </div>
       </div>
 

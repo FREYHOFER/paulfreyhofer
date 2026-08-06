@@ -15,8 +15,6 @@ const translations = {
     profileHeading: "Softwareentwicklung mit Blick für Prozesse und Menschen.",
     profileText1: "Bei 42 Berlin vertiefe ich Software Engineering projektbasiert mit C, Git und Unix. Meine Arbeit verbindet technische Umsetzung mit Prozessverständnis: Webanwendungen und Automatisierungen, die im Arbeitsalltag funktionieren.",
     profileText2: "Im Schnelsener Büchereck verbinde ich operative Mitarbeit mit digitalen Projekten - vom TikTok Shop und Instagram Ads bis zu Produktdaten-Workflows und DATEV-Automatisierung.",
-    factLanguages: "Sprachen",
-    factInternational: "Studium und Arbeit international",
     projectsLabel: "GitHub-Projekte",
     projectsHeading: "Technische Projekte",
     allGithub: "Alle Projekte auf GitHub ↗",
@@ -79,8 +77,6 @@ const translations = {
     profileHeading: "Software development with an eye for processes and people.",
     profileText1: "At 42 Berlin, I deepen my software engineering skills through project-based work with C, Git and Unix. I combine technical delivery with process thinking: web applications and automations that work in day-to-day operations.",
     profileText2: "At Schnelsener Büchereck, I combine operational work with digital projects - from TikTok Shop and Instagram Ads to product-data workflows and DATEV automation.",
-    factLanguages: "languages",
-    factInternational: "international study and work",
     projectsLabel: "GitHub projects",
     projectsHeading: "Technical projects",
     allGithub: "All projects on GitHub ↗",
@@ -143,8 +139,6 @@ const translations = {
     profileHeading: "Développer des logiciels en comprenant les processus et les personnes.",
     profileText1: "À 42 Berlin, j'approfondis le génie logiciel par des projets en C, Git et Unix. J'associe réalisation technique et compréhension des processus : applications web et automatisations utiles au travail quotidien.",
     profileText2: "À la librairie Schnelsener Büchereck, je relie travail opérationnel et projets numériques - de TikTok Shop et des campagnes Instagram aux flux de données produits et à l'automatisation DATEV.",
-    factLanguages: "langues",
-    factInternational: "études et travail à l'international",
     projectsLabel: "Projets GitHub",
     projectsHeading: "Projets techniques",
     allGithub: "Tous les projets sur GitHub ↗",
@@ -207,8 +201,6 @@ const translations = {
     profileHeading: "Desarrollo de software con atención a los procesos y a las personas.",
     profileText1: "En 42 Berlin profundizo en ingeniería de software mediante proyectos con C, Git y Unix. Combino la implementación técnica con la comprensión de procesos: aplicaciones web y automatizaciones que funcionan en el trabajo diario.",
     profileText2: "En Schnelsener Büchereck combino el trabajo operativo con proyectos digitales - desde TikTok Shop y campañas de Instagram hasta flujos de datos de producto y automatización con DATEV.",
-    factLanguages: "idiomas",
-    factInternational: "estudios y trabajo internacionales",
     projectsLabel: "Proyectos de GitHub",
     projectsHeading: "Proyectos técnicos",
     allGithub: "Todos los proyectos en GitHub ↗",
@@ -263,6 +255,7 @@ const themeToggle = document.getElementById("themeToggle");
 const toast = document.getElementById("toast");
 const progress = document.getElementById("progress");
 const themeColor = document.querySelector('meta[name="theme-color"]');
+const hero = document.querySelector(".hero");
 
 const storage = {
   get(key) {
@@ -332,6 +325,17 @@ setLanguage(language);
 function onScroll() {
   const height = document.documentElement.scrollHeight - innerHeight;
   progress.style.width = `${height > 0 ? Math.min(100, scrollY / height * 100) : 0}%`;
+
+  if (hero) {
+    const exitDistance = Math.max(innerHeight * .58, hero.offsetHeight * .58);
+    const rawProgress = Math.min(1, Math.max(0, scrollY / exitDistance));
+    const exitProgress = rawProgress * rawProgress * (3 - 2 * rawProgress);
+    const travel = Math.min(180, innerWidth * .14);
+    hero.style.setProperty("--hero-copy-x", `${(-travel * exitProgress).toFixed(1)}px`);
+    hero.style.setProperty("--hero-media-x", `${(travel * exitProgress).toFixed(1)}px`);
+    hero.style.setProperty("--hero-media-rotate", `${(3.5 * exitProgress).toFixed(2)}deg`);
+    hero.style.setProperty("--hero-opacity", Math.max(.06, 1 - exitProgress * .94).toFixed(3));
+  }
 }
 
 addEventListener("scroll", onScroll, { passive: true });
