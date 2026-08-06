@@ -72,8 +72,8 @@ COPY = {
         "skills": "KOMPETENZEN",
         "skills_items": [
             ("Social Media & Shop", "Instagram, TikTok, Instagram Ads, TikTok Shop"),
-            ("AI & Automatisierung", "Codex, AI Agents, n8n"),
-            ("Organisation", "Microsoft 365, WordPress, Kassensysteme, Veranstaltungs- und Projektkoordination"),
+            ("Software & AI", "Python, TypeScript, WordPress, Codex, AI Agents, n8n"),
+            ("Organisation", "Microsoft 365, Kassensysteme, Veranstaltungs- und Projektkoordination"),
         ],
         "languages": "SPRACHEN",
         "language_items": [
@@ -126,8 +126,8 @@ COPY = {
         "skills": "SKILLS",
         "skills_items": [
             ("Social media & shop", "Instagram, TikTok, Instagram Ads, TikTok Shop"),
-            ("AI & automation", "Codex, AI agents, n8n"),
-            ("Organisation", "Microsoft 365, WordPress, POS systems, event and project coordination"),
+            ("Software & AI", "Python, TypeScript, WordPress, Codex, AI agents, n8n"),
+            ("Organisation", "Microsoft 365, POS systems, event and project coordination"),
         ],
         "languages": "LANGUAGES",
         "language_items": [
@@ -180,8 +180,8 @@ COPY = {
         "skills": "COMPÉTENCES",
         "skills_items": [
             ("Réseaux sociaux & shop", "Instagram, TikTok, publicités Instagram, TikTok Shop"),
-            ("IA & automatisation", "Codex, agents IA, n8n"),
-            ("Organisation", "Microsoft 365, WordPress, systèmes de caisse, événements et projets"),
+            ("Logiciel & IA", "Python, TypeScript, WordPress, Codex, agents IA, n8n"),
+            ("Organisation", "Microsoft 365, systèmes de caisse, événements et projets"),
         ],
         "languages": "LANGUES",
         "language_items": [
@@ -234,8 +234,8 @@ COPY = {
         "skills": "COMPETENCIAS",
         "skills_items": [
             ("Redes sociales y shop", "Instagram, TikTok, Instagram Ads, TikTok Shop"),
-            ("IA y automatización", "Codex, agentes de IA, n8n"),
-            ("Organización", "Microsoft 365, WordPress, sistemas de caja, eventos y proyectos"),
+            ("Software e IA", "Python, TypeScript, WordPress, Codex, agentes de IA, n8n"),
+            ("Organización", "Microsoft 365, sistemas de caja, eventos y proyectos"),
         ],
         "languages": "IDIOMAS",
         "language_items": [
