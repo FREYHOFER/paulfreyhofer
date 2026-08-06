@@ -71,10 +71,9 @@ COPY = {
         ],
         "skills": "KOMPETENZEN",
         "skills_items": [
-            ("Code", "C, Python, JavaScript, Git, Linux"),
-            ("Web", "HTML, CSS, APIs, Plattformen"),
-            ("Automation", "n8n, Playwright, OCR, GitHub Actions"),
-            ("Praxis", "E-Commerce, Retail, Operations"),
+            ("Social Media & Shop", "Instagram, TikTok, Instagram Ads, TikTok Shop"),
+            ("AI & Automatisierung", "Codex, AI Agents, n8n"),
+            ("Organisation", "Microsoft 365, WordPress, Kassensysteme, Veranstaltungs- und Projektkoordination"),
         ],
         "languages": "SPRACHEN",
         "language_items": [
@@ -126,10 +125,9 @@ COPY = {
         ],
         "skills": "SKILLS",
         "skills_items": [
-            ("Code", "C, Python, JavaScript, Git, Linux"),
-            ("Web", "HTML, CSS, APIs, platforms"),
-            ("Automation", "n8n, Playwright, OCR, GitHub Actions"),
-            ("Business", "E-commerce, retail, operations"),
+            ("Social media & shop", "Instagram, TikTok, Instagram Ads, TikTok Shop"),
+            ("AI & automation", "Codex, AI agents, n8n"),
+            ("Organisation", "Microsoft 365, WordPress, POS systems, event and project coordination"),
         ],
         "languages": "LANGUAGES",
         "language_items": [
@@ -181,10 +179,9 @@ COPY = {
         ],
         "skills": "COMPÉTENCES",
         "skills_items": [
-            ("Code", "C, Python, JavaScript, Git, Linux"),
-            ("Web", "HTML, CSS, APIs, plateformes"),
-            ("Automatisation", "n8n, Playwright, OCR, GitHub Actions"),
-            ("Activité", "E-commerce, commerce, opérations"),
+            ("Réseaux sociaux & shop", "Instagram, TikTok, publicités Instagram, TikTok Shop"),
+            ("IA & automatisation", "Codex, agents IA, n8n"),
+            ("Organisation", "Microsoft 365, WordPress, systèmes de caisse, événements et projets"),
         ],
         "languages": "LANGUES",
         "language_items": [
@@ -236,10 +233,9 @@ COPY = {
         ],
         "skills": "COMPETENCIAS",
         "skills_items": [
-            ("Código", "C, Python, JavaScript, Git, Linux"),
-            ("Web", "HTML, CSS, APIs, plataformas"),
-            ("Automatización", "n8n, Playwright, OCR, GitHub Actions"),
-            ("Negocio", "E-commerce, retail, operaciones"),
+            ("Redes sociales y shop", "Instagram, TikTok, Instagram Ads, TikTok Shop"),
+            ("IA y automatización", "Codex, agentes de IA, n8n"),
+            ("Organización", "Microsoft 365, WordPress, sistemas de caja, eventos y proyectos"),
         ],
         "languages": "IDIOMAS",
         "language_items": [
