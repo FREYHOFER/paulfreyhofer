@@ -109,7 +109,7 @@ select, .icon-button { height: 38px; border: 1px solid var(--line); border-radiu
 
 .hero-media { position: relative; display: grid; place-items: end center; min-height: 560px; }
 .portrait-sticker { position: relative; z-index: 1; width: min(100%, 430px); margin: 0; opacity: var(--hero-opacity); transform: translate3d(var(--hero-media-x), 0, 0) rotate(var(--hero-media-rotate)); transform-origin: 50% 75%; will-change: transform, opacity; }
-.portrait-sticker img { width: 100%; height: auto; filter: drop-shadow(1px 0 0 var(--surface)) drop-shadow(-1px 0 0 var(--surface)) drop-shadow(0 1px 0 var(--surface)) drop-shadow(0 -1px 0 var(--surface)) drop-shadow(0 24px 24px rgba(48, 38, 28, .16)); animation: portrait-in .95s cubic-bezier(.2, .75, .2, 1) both; }
+.portrait-sticker img { width: 100%; height: auto; -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 83%, rgba(0, 0, 0, .88) 90%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 83%, rgba(0, 0, 0, .88) 90%, transparent 100%); -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; filter: drop-shadow(1px 0 0 var(--surface)) drop-shadow(-1px 0 0 var(--surface)) drop-shadow(0 1px 0 var(--surface)) drop-shadow(0 -1px 0 var(--surface)) drop-shadow(0 24px 24px rgba(48, 38, 28, .16)); animation: portrait-in .95s cubic-bezier(.2, .75, .2, 1) both; }
 @keyframes portrait-in { from { opacity: 0; transform: translateX(44px) rotate(3deg) scale(.96); } to { opacity: 1; transform: none; } }
 
 .section-shell { max-width: var(--max); margin: auto; padding: clamp(4rem, 7vw, 7rem) clamp(1rem, 3vw, 2rem); border-top: 1px solid var(--line); }
