@@ -327,6 +327,13 @@ function onScroll() {
   progress.style.width = `${height > 0 ? Math.min(100, scrollY / height * 100) : 0}%`;
 
   if (hero) {
+    if (innerWidth <= 720) {
+      hero.style.setProperty("--hero-copy-x", "0px");
+      hero.style.setProperty("--hero-media-x", "0px");
+      hero.style.setProperty("--hero-media-rotate", "0deg");
+      hero.style.setProperty("--hero-opacity", "1");
+      return;
+    }
     const exitDistance = Math.max(innerHeight * .58, hero.offsetHeight * .58);
     const rawProgress = Math.min(1, Math.max(0, scrollY / exitDistance));
     const exitProgress = rawProgress * rawProgress * (3 - 2 * rawProgress);
